@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>The darkness is coming</title>
+
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#000000" />
+
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#000000" />
+
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent" />
+
+<!-- Яндекс.Браузер -->
+<meta name="viewport" content="ya-title=#000000,ya-dock=fade" />
+
+
+</head>
+<body style="zoom:350%;padding:40% 0;">
+   
+   <h1 style="text-align:center;font-family: cursive;">Time Is Not Eternal...</h1>
+    
+    <div style="font-size:17px;color:#4d4d4d;text-align:center;top:-20px;position:relative;">
+𝖙𝖍𝖊 𝖉𝖆𝖗𝕽𝖓𝖊𝖘𝖘 𝖎𝖘 𝖈𝖔𝖒𝖎𝖓𝖌
+</div>
+    
+    <div id="my_time" style="font-size:40px;text-align:center;font-family: cursive;"></div>
+
+<p></p>
+
+
+<p></p>
+
+
+
+
+
+</body>
+</html>
+
+<script>
+    
+
+
+var timeElement = document.getElementById('my_time');
+  setInterval(function () {
+    var currentTime = new Date();
+    timeElement.textContent = currentTime.toLocaleTimeString();
+  }, 1000);
+
+
+</script>
+
+
+<style>
+</style>
